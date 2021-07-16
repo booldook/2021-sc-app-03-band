@@ -1,0 +1,6 @@
+/*************** .header-wrapper *****************/
+.header-wrapper {background-color: #000; color: #fff;}
+.header-wrapper .navi-wrap {float: left;}
+.header-wrapper .navi-wrap .navi {float: left; padding: 12px 24px;}
+.header-wrapper .navi-wrap .navi:hover {color: #000; background-color: #bbb;}
+.header-wrapper .search-wrap {float: right; padding: 12px 16px; background-color: #f30;}
