@@ -1,0 +1,7 @@
+html, body, h1, h2, h3, h4, h5, p, div {margin: 0; padding: 0; box-sizing: border-box;}
+img {vertical-align: bottom;}
+
+.clear::after {display: block; content: ''; clear: both;}
+
+.w100 {width: 100%;}
+.mw100 {max-width: 100%;}
