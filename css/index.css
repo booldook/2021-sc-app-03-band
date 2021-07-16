@@ -1,3 +1,13 @@
+/*************** common *****************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+html, body {height: 10000px;}
+.wrapper {max-width: 800px; margin: auto; padding: 80px 16px;}
+h2.title {font-family: 'Open Sans', sans-serif; text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 24px;}
+h3.title {font-family: 'Open Sans', sans-serif; text-align: center; font-size: 15px; color: #aaa; font-style: italic; margin-bottom: 18px;}
+p.content {font-family: 'Open Sans', sans-serif; font-size: 15px; color: #111; text-align: justify;}
+
 /*************** .header-wrapper *****************/
 .header-wrapper {background-color: #000; color: #fff;}
 .header-wrapper .navi-wrap {float: left;}
@@ -5,3 +15,6 @@
 .header-wrapper .navi-wrap .navi:hover {color: #000; background-color: #ddd;}
 .header-wrapper .search-wrap {float: right; padding: 12px 16px;}
 .header-wrapper .search-wrap:hover {background-color: #f30;}
+
+/*************** .band-wrapper *****************/
+.band-wrapper
