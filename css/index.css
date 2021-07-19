@@ -5,8 +5,8 @@
 html, body {font-family: 'Open Sans', sans-serif; font-size: 15px; height: 10000px;}
 
 .wrapper {max-width: 800px; margin: auto; padding: 80px 16px;}
-h2.title {text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 24px;}
-h3.title {text-align: center; color: #aaa; font-style: italic; margin-bottom: 18px;}
+h2.title {text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 18px;}
+h3.title {text-align: center; color: #aaa; font-style: italic; margin-bottom: 18px; font-size: 14.8px;}
 p.content {color: #111; text-align: justify; line-height: 1.5;}
 
 /*************** .header-wrapper *****************/
@@ -22,3 +22,7 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 .band-wrapper .member .name {text-align: center; margin-bottom: 16px;}
 .band-wrapper .member .img-wrap {border-radius: 10px; overflow: hidden;}
 /* .band-wrapper .member .img-wrap img {border-radius: 10px;} */
+
+/*************** .tour-wrapper *****************/
+.tour-wrapper {background-color: #000;}
+.tour-wrapper h2.title {color: #fff;}
