@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
 
-html, body {height: 10000px;}
+html, body {font-family: 'Open Sans', sans-serif; font-size: 15px; height: 10000px;}
+
 .wrapper {max-width: 800px; margin: auto; padding: 80px 16px;}
-h2.title {font-family: 'Open Sans', sans-serif; text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 24px;}
-h3.title {font-family: 'Open Sans', sans-serif; text-align: center; font-size: 15px; color: #aaa; font-style: italic; margin-bottom: 18px;}
-p.content {font-family: 'Open Sans', sans-serif; font-size: 15px; color: #111; text-align: justify;}
+h2.title {text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 24px;}
+h3.title {text-align: center; color: #aaa; font-style: italic; margin-bottom: 18px;}
+p.content {color: #111; text-align: justify; line-height: 1.5;}
 
 /*************** .header-wrapper *****************/
 .header-wrapper {background-color: #000; color: #fff;}
@@ -17,4 +18,4 @@ p.content {font-family: 'Open Sans', sans-serif; font-size: 15px; color: #111; t
 .header-wrapper .search-wrap:hover {background-color: #f30;}
 
 /*************** .band-wrapper *****************/
-.band-wrapper
+.band-wrapper .member-wrap .member {float: left; width: 33.3333%; padding: 5%;}
