@@ -19,3 +19,6 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 
 /*************** .band-wrapper *****************/
 .band-wrapper .member-wrap .member {float: left; width: 33.3333%; padding: 5%;}
+.band-wrapper .member .name {text-align: center; margin-bottom: 16px;}
+.band-wrapper .member .img-wrap {border-radius: 10px; overflow: hidden;}
+/* .band-wrapper .member .img-wrap img {border-radius: 10px;} */
