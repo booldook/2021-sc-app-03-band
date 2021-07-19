@@ -26,3 +26,5 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 /*************** .tour-wrapper *****************/
 .tour-wrapper {background-color: #000;}
 .tour-wrapper h2.title {color: #fff;}
+.tour-wrapper .tour-wrap {color: #555; background-color: #f1f1f1;}
+.tour-wrapper .tour-wrap .tour {padding: 12px 16px;}
