@@ -89,18 +89,45 @@
 					<option value="019">019</option>
 				</select>
 				- 
-				<input type="text" name="tel2" class="tel" minlength="4" maxlength="4">
+				<input type="tel" name="tel2" class="tel" minlength="4" maxlength="4">
 				- 
-				<input type="text" name="tel3" class="tel" minlength="4" maxlength="4">
+				<input type="tel" name="tel3" class="tel" minlength="4" maxlength="4">
 			</div>
 			<div class="input-wrap">
 				<textarea name="content" placeholder="내용을 입력하세요."></textarea>
 			</div>
 
+			<div class="input-wrap">
+				<h2>HTML5에서 추가된 type - 써먹어도 된다.</h2>
+				<input type="email" name="email">
+				<input type="range" name="volume" min="0" max="10" step="1" value="5">
+				<input type="search" name="search">
+				<input type="url" name="url">
+			</div>
+			
+			<div class="input-wrap">
+				<h2>HTML5에서 추가된 type - IE11에서 지원이 안된다.</h2>
+				<input type="color" name="color">
+				<input type="hidden" name="chk" value="비밀값">
+				<input type="date" name="date">
+				<input type="datetime-local" name="datetime">
+				<input type="month" name="month">
+				<input type="time" name="time">
+				<input type="week" name="week">
+			</div>
 
 
 			<div class="input-wrap">
-				<button type="submit">전송</button>
+				<button>전송</button>
+				<input type="submit" value="전송">
+				
+				<button type="button">그냥 버튼</button>
+				<input type="button" value="그냥 버튼">
+
+				<button type="reset">초기화</button>
+				<input type="reset" value="초기화">
+
+				<input type="image" src="../img/paris.jpg">
 			</div>
 		</form>
 	</div>
