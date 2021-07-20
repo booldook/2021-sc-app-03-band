@@ -12,6 +12,8 @@ html, body {font-family: 'Open Sans', sans-serif; font-size: 15px; height: 10000
 h2.title {text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 18px;}
 h3.title {text-align: center; color: #aaa; font-style: italic; margin-bottom: 18px; font-size: 14.8px;}
 p.content {color: #111; text-align: justify; line-height: 1.5;}
+.bt-black {background-color: black; color: #fff; padding: 10px 14px; display: inline-block; cursor: pointer; border: none;}
+.bt-black:hover {background-color: #bbb; color: #000;}
 
 /*************** .header-wrapper *****************/
 .header-wrapper {background-color: #000; color: #fff;}
@@ -46,13 +48,18 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 .tour-wrapper .city .content-wp .title {font-weight: bold; margin-bottom: 16px;}
 .tour-wrapper .city .content-wp .datetime {color: #777; margin-bottom: 16px;}
 .tour-wrapper .city .content-wp .content {font-size: 15px; line-height: 1.35; margin-bottom: 16px;}
-.tour-wrapper .city .content-wp .bt-buy {background-color: black; color: #fff; padding: 10px 14px; display: inline-block; cursor: pointer;}
-.tour-wrapper .city .content-wp .bt-buy:hover {background-color: #bbb; color: #000;}
+
 
 /*************** .contact-wrapper *****************/
 .contact-wrapper h3.title {margin-bottom: 48px;}
-.contact-wrapper .contact-wrap {}
-.contact-wrapper .contact-wrap .info-wp {float: left; width: 50%; border: 1px solid red; font-size: 18px; }
-.contact-wrapper .contact-wrap .info-wp > div {margin-bottom: 12px;}
-.contact-wrapper .contact-wrap .info-wp > div > i {width: 30px;}
-.contact-wrapper .contact-wrap .form-wp {float: right; width: 50%; border: 1px solid blue;}
+.contact-wrapper .wrapper {margin-bottom: 48px;}
+.contact-wrapper .info-wp {float: left; width: 50%; font-size: 18px; }
+.contact-wrapper .info-wp > div {margin-bottom: 12px;}
+.contact-wrapper .info-wp > div > i {width: 30px;}
+.contact-wrapper .form-wp {float: right; width: 50%;}
+.contact-wrapper .form-wp .input {padding: 12px; margin-bottom: 12px; font-size: 16px; border: 1px solid #bbb;}
+.contact-wrapper .form-wp input[name="name"] {width: 49%; float: left;}
+.contact-wrapper .form-wp input[name="email"] {width: 49%; float: right;}
+.contact-wrapper .form-wp input[name="msg"] {width: 100%;}
+.contact-wrapper .form-wp .bt-submit {float: right;}
+.contact-wrapper .map-wrap {filter: grayscale(50%);}

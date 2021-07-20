@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>nth-child</title>
+	<style>
+		.wrapper {max-width: 800px; margin: auto; padding: 24px;}
+		.list-wrap {border: 2px solid red; padding: 8px; margin-bottom: 32px;}
+		.list-wrap .list {border: 2px solid blue; padding: 8px; margin-bottom: 12px;}
+
+		/* .wrapper :first-child {border-color: green;} */
+		.wrapper > :last-child > :nth-child(2) {border-color: green;}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="list-wrap">
+			<div class="list">1</div>
+			<div class="list">2</div>
+			<div class="list">3</div>
+		</div>
+		<div class="list-wrap">
+			<div class="list">1</div>
+			<div class="list">2</div>
+			<div class="list">3</div>
+		</div>
+	</div>
+</body>
+</html>
