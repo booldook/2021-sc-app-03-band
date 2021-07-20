@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
 
-html, body {font-family: 'Open Sans', sans-serif; font-size: 15px; height: 10000px;}
+html, body {font-family: 'Open Sans', sans-serif; font-size: 15px;}
 
 .wrapper {max-width: 800px; margin: auto; padding: 80px 16px;}
 h2.title {text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 18px;}
@@ -49,7 +49,6 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 .tour-wrapper .city .content-wp .datetime {color: #777; margin-bottom: 16px;}
 .tour-wrapper .city .content-wp .content {font-size: 15px; line-height: 1.35; margin-bottom: 16px;}
 
-
 /*************** .contact-wrapper *****************/
 .contact-wrapper h3.title {margin-bottom: 48px;}
 .contact-wrapper .wrapper {margin-bottom: 48px;}
@@ -63,3 +62,8 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 .contact-wrapper .form-wp input[name="msg"] {width: 100%;}
 .contact-wrapper .form-wp .bt-submit {float: right;}
 .contact-wrapper .map-wrap {filter: grayscale(50%);}
+
+/*************** .footer-wrapper *****************/
+.footer-wrapper {text-align: center; color: #555;}
+.footer-wrapper .sns-wrap {font-size: 20px; margin-bottom: 24px;}
+.footer-wrapper .sns-wrap .fab:hover {opacity: .5;}
