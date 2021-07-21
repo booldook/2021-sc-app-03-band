@@ -21,8 +21,13 @@ p.content {color: #111; text-align: justify; line-height: 1.5;}
 .header-wrapper .navi-wrap .navi:hover {color: #000; background-color: #ddd;}
 .header-wrapper .search-wrap {float: right; padding: 12px 16px;}
 .header-wrapper .search-wrap:hover {background-color: #f30;}
-.header-wrapper .navi-more {display: block;}
-.header-wrapper .navi-more .sub-wrap {background-color: #fff;}
+
+.header-wrapper .navi-more {position: relative;}
+.header-wrapper .navi-more .sub-wrap {position: absolute; top: 44px; left: 0; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, .5); display: none;}
+.header-wrapper .navi-more .sub-wrap a {display: block; padding: 12px 48px 12px 16px; color: #000;}
+.header-wrapper .navi-more .sub-wrap a:hover {background-color: #ddd;}
+.header-wrapper .navi-more:hover .sub-wrap {display: block;}
+
 
 /*************** .main-wrapper *****************/
 .main-wrapper {position: relative;}
