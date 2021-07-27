@@ -1,0 +1,84 @@
+/*************** 설명 *****************/
+.sample {display: inline-block;}
+
+/*************** common *****************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+html, body {font-family: 'Open Sans', sans-serif; font-size: 15px;}
+
+.wrapper {max-width: 800px; margin: auto; padding: 80px 16px; }
+h2.title {text-align: center; font-size: 30px; letter-spacing: 5px; margin-bottom: 18px;}
+h3.title {text-align: center; color: #aaa; font-style: italic; margin-bottom: 18px; font-size: 14.8px;}
+p.content {color: #111; text-align: justify; line-height: 1.5;}
+.bt-black {background-color: black; color: #fff; padding: 10px 14px; display: inline-block; cursor: pointer; border: none;}
+.bt-black:hover {background-color: #bbb; color: #000;}
+
+/*************** .header-wrapper *****************/
+.header-wrapper {background-color: #000; width: 100%; color: #fff; position: fixed; z-index: 99; left: 0; top: 0; box-shadow: 0 0 10px rgba(0, 0, 0, .7); display: flex; justify-content: space-between;}
+.header-wrapper .navi-wrap {display: flex;}
+.header-wrapper .navi-wrap .navi { padding: 12px 24px;}
+.header-wrapper .navi-wrap .navi:hover {color: #000; background-color: #ddd;}
+.header-wrapper .search-wrap { padding: 12px 16px;}
+.header-wrapper .search-wrap:hover {background-color: #f30;}
+
+.header-wrapper .navi-more {position: relative;}
+.header-wrapper .navi-more .sub-wrap {position: absolute; top: 44px; left: 0; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, .5); display: none;}
+.header-wrapper .navi-more .sub-wrap a {display: block; padding: 12px 48px 12px 16px; color: #000;}
+.header-wrapper .navi-more .sub-wrap a:hover {background-color: #ddd;}
+.header-wrapper .navi-more:hover .sub-wrap {display: block;}
+
+
+/*************** .main-wrapper *****************/
+.main-wrapper {position: relative;}
+.main-wrapper .slogan-wrap {position: absolute; bottom: 30px; left: 0; width: 100%; text-align: center; color: #fff;}
+.main-wrapper .slogan-wrap h2.name {margin-bottom: 16px;}
+
+
+/*************** .band-wrapper *****************/
+.band-wrapper .member-wrap {display: flex;}
+.band-wrapper .member-wrap .member {width: 33.3333%; padding: 5%;}
+.band-wrapper .member .name {text-align: center; margin-bottom: 16px;}
+.band-wrapper .member .img-wrap {border-radius: 10px; overflow: hidden;}
+/* .band-wrapper .member .img-wrap img {border-radius: 10px;} */
+
+/*************** .tour-wrapper *****************/
+.tour-wrapper {background-color: #000;}
+.tour-wrapper .wrapper {overflow: hidden;}
+.tour-wrapper h2.title {color: #fff;}
+.tour-wrapper h3.title {margin-bottom: 36px;}
+.tour-wrapper .tour-wrap {color: #555; background-color: #f1f1f1; border: 1px solid #bbb; margin-bottom: 36px;}
+/* .tour-wrapper .tour-wrap .tour {padding: 12px 16px; border-bottom: 1px solid #bbb;}
+.tour-wrapper .tour-wrap .tour:last-child {border: none;} */
+.tour-wrapper .tour {padding: 12px 16px;}
+.tour-wrapper .tour:not(:last-child) {border-bottom: 1px solid #bbb;}
+.tour-wrapper .tour .sold-out {background-color: #f33; color: #fff; padding: 3px 6px; margin-left: 8px;}
+.tour-wrapper .tour.has-count {display: flex; align-items: center;}
+.tour-wrapper .tour .count {margin-left: auto; background-color: #000; color: #fff; padding: 2px 8px; border-radius: 50%;}
+.tour-wrapper .city-wrap {display: flex; width: 101.3333%;}
+.tour-wrapper .city {width: 32%; margin-right: 1.3333%;}
+.tour-wrapper .city .img-wp img:hover {opacity: .6;}
+.tour-wrapper .city .content-wp {background-color: #fff; padding: 16px;}
+.tour-wrapper .city .content-wp .title {font-weight: bold; margin-bottom: 16px;}
+.tour-wrapper .city .content-wp .datetime {color: #777; margin-bottom: 16px;}
+.tour-wrapper .city .content-wp .content {font-size: 15px; line-height: 1.35; margin-bottom: 16px;}
+
+/*************** .contact-wrapper *****************/
+.contact-wrapper h3.title {margin-bottom: 48px;}
+.contact-wrapper .wrapper {margin-bottom: 48px;}
+.contact-wrapper .contact-wrap {display: flex;}
+.contact-wrapper .info-wp {width: 50%; font-size: 18px; }
+.contact-wrapper .info-wp > div {margin-bottom: 12px;}
+.contact-wrapper .info-wp > div > i {width: 30px;}
+.contact-wrapper .form-wp {width: 50%; display: flex; flex-wrap: wrap;}
+.contact-wrapper .form-wp .input {padding: 12px; margin-bottom: 12px; font-size: 16px; border: 1px solid #bbb;}
+.contact-wrapper .form-wp input[name="name"] {width: 49%;}
+.contact-wrapper .form-wp input[name="email"] {width: 49%; margin-left: auto;}
+.contact-wrapper .form-wp input[name="msg"] {width: 100%;}
+.contact-wrapper .form-wp .bt-submit {margin-left: auto;}
+.contact-wrapper .map-wrap {filter: grayscale(50%);}
+
+/*************** .footer-wrapper *****************/
+.footer-wrapper {text-align: center; color: #555;}
+.footer-wrapper .sns-wrap {font-size: 20px; margin-bottom: 24px;}
+.footer-wrapper .sns-wrap .fab:hover {opacity: .5;}
